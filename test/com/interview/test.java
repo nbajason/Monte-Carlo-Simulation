@@ -12,7 +12,7 @@ public class test {
 		//    - Risk ( Standard Deviation): 6.3438
 		Portfolio[] portfolioArr = new Portfolio[2];
 		portfolioArr[0] = new Portfolio("Aggressive", 100000, 0.094324, 0.15675);
-		portfolioArr[1] = new Portfolio("Very Conservative", 100000, 0.06189,  0.63438);
+		portfolioArr[1] = new Portfolio("Very Conservative", 100000, 0.06189,  0.063438);
 		
 		//********data process***********//
 		System.out.println("Monte Carlo Simulation");
