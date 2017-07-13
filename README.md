@@ -4,10 +4,10 @@ Dear Mark:
 
 Sorry for the later, as I was outside with my daughter this morning.
 
-This is the solution: 
+This are 2 solutions in Java/Python: 
 1. class of Portfolio is used to store the input/output data
 2. class of Simulator is used to process the data
-3. class of test is used to print out the result
+3. class of test/main is used to print out the result
 
 NOTE: 
 1. Lib needs to import:
