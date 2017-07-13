@@ -18,32 +18,20 @@ Monte Carlo Simulation
 Portfolio Type - Aggressive:
 
      - initialInvestment = 100000
-
      - return = 0.094324
-
      - risk = 0.15675
-
      - Median = 244925
-
      - 10% Best = 551271
-
      - 10% Worst = 101446
 
 Portfolio Type - Very Conservative:
 
      - initialInvestment = 100000
-
      - return = 0.06189
-     
-     - risk = 0.063438
-     
-     - Median = 156917
-     
-     - 10% Best = 220040
-     
+     - risk = 0.063438     
+     - Median = 156917     
+     - 10% Best = 220040     
      - 10% Worst = 111290
-
-
 
 Please kindly help to review.
 If there is any questions, please let me know. 
