@@ -13,9 +13,9 @@ NOTE:
 1. Lib needs to import:
        - org.apache.commons.math3 (for your convenience, I just uploaded into the GIT)
 2. Sample output:
-Monte Carlo Simulation
+    Monte Carlo Simulation
 
-Portfolio Type - Aggressive:
+    Portfolio Type - Aggressive:
 
      - initialInvestment = 100000
      - return = 0.094324
@@ -24,7 +24,7 @@ Portfolio Type - Aggressive:
      - 10% Best = 551271
      - 10% Worst = 101446
 
-Portfolio Type - Very Conservative:
+    Portfolio Type - Very Conservative:
 
      - initialInvestment = 100000
      - return = 0.06189
