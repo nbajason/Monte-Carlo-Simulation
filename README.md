@@ -30,6 +30,7 @@ Portfolio Type - Aggressive:
      - 10% Worst = 101446
 
 Portfolio Type - Very Conservative:
+
      - initialInvestment = 100000
 
      - return = 0.06189
