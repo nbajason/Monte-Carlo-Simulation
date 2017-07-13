@@ -88,13 +88,10 @@ public class Simulator {
 	public void simulate() {
 		for (int i = 0; i < num_simulations; i++) {
 			for (Portfolio p : portfolios) {
-				double simResult = p.getInitialInvestment();// starting value
+				double simResult = p.getInitialInvestment();
 				for (int j = 0; j < periods; j++) {
-					// get next random sample return for the portfolio
 					double r = results.get(p).nextSampleReturn();
-					// end of period value
 					simResult = (1 + r) * simResult;
-					// adjust for inflation
 					simResult = (1 - inflation) * simResult;
 				}
 				// save result
