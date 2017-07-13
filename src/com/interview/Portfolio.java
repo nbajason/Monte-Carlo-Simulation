@@ -81,23 +81,16 @@ public class Portfolio {
 
 	@Override
 	public String toString() {
-//		StringBuilder sb = new StringBuilder();
-//		sb.append("Portfolio Type - ").append(portfolioType)
-//		.append(":\n     - initialInvestment = ").append(Math.round(initialInvestment))
-//		.append("\n     - return = ").append(mean)
-//		.append("\n     - risk = ").append(standardDeviation)
-//		.append("\n     - Median = ").append(Math.round(simulationMedian))
-//		.append("\n     - 10% Best = ").append(Math.round(simulationBest10))
-//		.append("\n     - 10% Worst = ").append(Math.round(simulationWorst10));
-//		
-//		return sb.toString();
-	
-		return "Portfolio Type - " + portfolioType + ":\n     - initialInvestment = " + Math.round(initialInvestment)
-				+ "\n     - return = " + mean + "\n     - risk = " + standardDeviation + "\n     - Median = "
-				+ Math.round(simulationMedian) + "\n     - 10% Best = " + Math.round(simulationBest10)
-				+ "\n     - 10% Worst = " + Math.round(simulationWorst10) + "\n     NOTE:"
-				+ "\n     - (10% Best: 90th Percentile value among the 10,000 simulations)"
-				+ "\n     - (10% Worst:10th Percentile value among the 10,000 simulations)\n";
+		StringBuilder sb = new StringBuilder();
+		sb.append("Portfolio Type - ").append(portfolioType)
+		.append(":\n     - initialInvestment = ").append(Math.round(initialInvestment))
+		.append("\n     - return = ").append(mean)
+		.append("\n     - risk = ").append(standardDeviation)
+		.append("\n     - Median = ").append(Math.round(simulationMedian))
+		.append("\n     - 10% Best = ").append(Math.round(simulationBest10))
+		.append("\n     - 10% Worst = ").append(Math.round(simulationWorst10));
+		
+		return sb.toString();
 	}
 
 }
